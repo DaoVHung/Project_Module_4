@@ -1,0 +1,1 @@
+package ra.dev.model.dto.request.order;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;import java.sql.Timestamp;import java.time.LocalDate;@Data@NoArgsConstructorpublic class OrdersCreate {    private String note;    public OrdersCreate(String note) {        this.note = note;    }}

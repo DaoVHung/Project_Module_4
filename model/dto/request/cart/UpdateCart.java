@@ -1,0 +1,1 @@
+package ra.dev.model.dto.request.cart;import lombok.Data;import lombok.NoArgsConstructor;import java.io.Serializable;@Data@NoArgsConstructorpublic class UpdateCart implements Serializable {    private Integer quantity;    private String note;    public UpdateCart(Integer quantity, String note) {        this.quantity = quantity;        this.note = note;    }}

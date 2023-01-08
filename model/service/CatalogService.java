@@ -1,0 +1,1 @@
+package ra.dev.model.service;import ra.dev.model.dto.request.product.ViewByCatalog;import ra.dev.model.entity.Catalog;import java.util.List;public interface CatalogService {    List<Catalog> findAll();    Catalog findByID(int catalogID);    Catalog saveOrUpdate ( Catalog catalog);    void delete(int catalogID);    List<Catalog> searchByName (String catalogName);}

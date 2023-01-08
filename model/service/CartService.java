@@ -1,0 +1,1 @@
+package ra.dev.model.service;import ra.dev.model.entity.Cart;import java.util.List;public interface CartService {    List<Cart> findAll();    Cart findByID(int cartID);    Cart saveOrUpdate(Cart cart);    void delete(int cartID);    List<Cart> searchByName(String cart);    List<Cart> searchCartByUserID(int userID);}

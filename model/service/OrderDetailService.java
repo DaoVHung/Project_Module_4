@@ -1,0 +1,1 @@
+package ra.dev.model.service;import ra.dev.model.entity.OrderDetail;import java.util.List;public interface OrderDetailService {    List<OrderDetail> findAll();    OrderDetail findByID(int orderDetailID);    OrderDetail saveOrUpdate ( OrderDetail orderDetail);    void delete(int orderDetailID);    List<OrderDetail> searchByName (String orderDetail);}

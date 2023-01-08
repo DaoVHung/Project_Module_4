@@ -1,0 +1,1 @@
+package ra.dev.model.dto.request.star;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructor@AllArgsConstructorpublic class ProductHistory {    private int productID;    private int orderID;    private String productName;}

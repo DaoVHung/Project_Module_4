@@ -1,0 +1,1 @@
+package ra.dev.model.service;import ra.dev.model.entity.Contact;import java.util.List;public interface ContactService {    List<Contact> findAll();    Contact findByID(int contactID);    Contact saveOrUpdate (Contact contact);    void delete(int contactID);    List<Contact> searchByName (String fullName);}
