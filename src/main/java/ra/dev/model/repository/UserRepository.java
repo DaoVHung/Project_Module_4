@@ -1,0 +1,1 @@
+package ra.dev.model.repository;public interface UserRepository {}

@@ -1,0 +1,1 @@
+package ra.dev.model.entity;public enum ERole {}

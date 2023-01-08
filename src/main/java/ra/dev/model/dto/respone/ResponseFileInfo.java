@@ -1,0 +1,1 @@
+package ra.dev.model.dto.respone;public class ResponseFileInfo {}

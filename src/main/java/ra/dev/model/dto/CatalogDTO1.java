@@ -1,0 +1,1 @@
+package ra.dev.model.dto;public class CatalogDTO1 {    private Integer catalogId;    private String catalogName;    private Boolean catalogStatus;    public CatalogDTO1(String catalogName) {    }}

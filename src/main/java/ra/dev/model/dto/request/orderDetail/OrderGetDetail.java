@@ -1,0 +1,1 @@
+package ra.dev.model.dto.request.orderDetail;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructorpublic class OrderDetail {    private Integer detailId;    private Integer price;    private String productName;    private Integer quantity;    private Integer orderId;    private Integer productId;}
